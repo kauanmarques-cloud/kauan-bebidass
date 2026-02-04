@@ -1,0 +1,219 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: Arial, sans-serif;
+background: #000;
+color: #f8f6f6;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0c0b0a;
+    padding: 2px ;
+}
+
+.topo img {
+    width: 250px;      
+    
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;       
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRuRfmIVf1txuc9-Glcr_ZUfjzr61E_onwg&s);
+    background-position: center;   
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-color: #000;        
+
+    .card {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+}
+
+
+
+
+.produtos {
+display: flex;
+gap: 20px;
+padding: 30px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.produto {
+background: #0d0d0d;
+width: 260px;
+height: 320px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.img-produto {
+width: 120px;
+height: 120px;
+background: #000;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+
+.img-produto img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+
+
+.pedido-box {
+    background: #fff;
+    color: #000;
+    width: 320px;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.pedido-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#lista-pedido {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#lista-pedido li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+#lista-pedido button {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#lista-pedido button:hover {
+    background: darkred;
+}
+
+.total {
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#finalizar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#finalizar:hover {
+    background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #1c1919;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.checkout-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.checkout-container input,
+.checkout-container select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.checkout-container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #28a745;
+    color: rgb(19, 18, 18);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-container button:hover {
+    background: #218838;
+}
